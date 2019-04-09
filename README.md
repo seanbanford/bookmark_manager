@@ -34,9 +34,19 @@ Users are restricted to manage only their own bookmarks
 
       Diagram 1
 
-2)  
+2)  As a user
+    So i can add to my saved resources
+    I'd like to be able to save a sites address and title to the bookmark manager
 
 
 ## Domain Model
 
 ![Domain Model Diagram](./Users/seanbanford/Documents/Maker's_Course_Projects/week_6_tasks/bookmark_manager/diagrams/Domain_Model_Diagram.jpg)
+
+## Creating the Database from scratch -
+Accessing database - Running the SQL Query
+
+1 - Connect to psql
+2 - Create the database using the psql command CREATE DATABASE bookmark_manager;
+3 - Connect to the database using the pqsl command \c bookmark_manager;
+4 - Run the query we have saved in the file 01_create_bookmarks_table.sql
