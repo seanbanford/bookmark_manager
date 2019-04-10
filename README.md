@@ -38,6 +38,10 @@ Users are restricted to manage only their own bookmarks
     So i can add to my saved resources
     I'd like to be able to save a sites address and title to the bookmark manager
 
+3)  As a user
+    So i can store my bookmark data for later retrieval
+    I want to add a bookmark to Bookmark Manager
+
 
 ## Domain Model
 
@@ -46,7 +50,16 @@ Users are restricted to manage only their own bookmarks
 ## Creating the Database from scratch -
 Accessing database - Running the SQL Query
 
+Bookmark_manager database
+
 1 - Connect to psql
 2 - Create the database using the psql command CREATE DATABASE bookmark_manager;
 3 - Connect to the database using the pqsl command \c bookmark_manager;
+4 - Run the query we have saved in the file 01_create_bookmarks_table.sql
+
+bookmark_manager_test database
+
+1 - Connect to psql
+2 - Create the database using the psql command CREATE DATABASE bookmark_manager_test;
+3 - Connect to the database using the pqsl command \c bookmark_manager_test;
 4 - Run the query we have saved in the file 01_create_bookmarks_table.sql
