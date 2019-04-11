@@ -42,6 +42,10 @@ Users are restricted to manage only their own bookmarks
     So i can store my bookmark data for later retrieval
     I want to add a bookmark to Bookmark Manager
 
+4)  As a user
+    So I can remove my bookmark from Bookmark Manager
+    I want to delete a bookmark
+
 
 ## Domain Model
 
@@ -66,4 +70,4 @@ bookmark_manager_test database
 
 Create Table Column 'title'
 
-1 - Run the second query we have saved in the file 01_create_bookmarks_table.sql 
+1 - Run the second query we have saved in the file 01_create_bookmarks_table.sql
